@@ -42,7 +42,7 @@ msgsnd(msgid, &unMessage, sizeof(msgp),0);
 
 msgrcv(msgid, &unMessage, BUFF, RCVTYPE, MSG_NOERROR);
  
-printf("Client: Somme: %d", unMessage.terme1);
+printf("\nClient: Somme: %d\n", unMessage.terme1);
 exit(EXIT_SUCCESS);
 
 }
